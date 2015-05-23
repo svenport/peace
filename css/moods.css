@@ -44,17 +44,33 @@
 }
 .mood_options_lane{
 	width: 100%;
+	color: #434343;
 }
 .mood_options_lane_left, .mood_options_lane_right{
 	width: 50%;
 	float: left;
 	padding: 1%;
 	padding-bottom: 0%;
+	height: 50px;
+	margin-bottom: 1%;
 }
 
 .mood_options_lane_left{
+	width: 44%;
 	text-align: right;
 }
+
 .mood_options_lane_right{
+	width: 56%;
 	text-align: left;
+	font-size: 18pt;
+	padding-top: 1%;
+}
+
+.mood_options_lane_left .btn, .mood_options_lane_right .btn{
+	color: #434343;
+}
+
+.mood_options_lane_left .fa, .mood_options_lane_right .fa{
+	padding-left: 1%;
 }

@@ -49,37 +49,50 @@
     <div class="jumbotron mood_options">
 	  <h1>Hello, John!</h1>
 	  <h4>Nice to meet you.</h4>
-	  <p></p>
+	</div>
+	<div class="mood_options">
 	  <div class="mood_options_lane">
 	  	<div class="mood_options_lane_left">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Just report mood
-	  			<i class="fa fa-pencil"></i></a>
+	  		<i class="fa fa-pencil fa-3x"></i>
 	  	</div>
 	  	<div class="mood_options_lane_right">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Upload picture 
-	  			<i class="fa fa-upload"></i></a>
+	  		Just report mood
+	  	</div>
+	  	<div class="mood_options_lane_left">
+	  		 <i class="fa fa-upload fa-3x"></i>
+	  	</div>
+	  	<div class="mood_options_lane_right">
+	  		Upload picture
 	  	</div>
 	  </div>
 	  
 	  <div class="mood_options_lane">
 	  	<div class="mood_options_lane_left">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Tweet
-	  			<i class="fa fa-twitter"></i></a>
+	  		<i class="fa fa-twitter fa-3x"></i>
 	  	</div>
 	  	<div class="mood_options_lane_right">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Hear music
-	  			<i class="fa fa-headphones"></i></a>
+	  		Tweet
+	  	</div>
+	  	<div class="mood_options_lane_left">
+	  		<i class="fa fa-headphones fa-3x"></i>
+	  	</div>
+	  	<div class="mood_options_lane_right">
+	  		Hear music
 	  	</div>
 	  </div>
 	  
 	  <div class="mood_options_lane">
 	  	<div class="mood_options_lane_left">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Write to journal
-	  			<i class="fa fa-file-text-o"></i></a>
+	  		<i class="fa fa-file-text-o fa-3x"></i>
 	  	</div>
 	  	<div class="mood_options_lane_right">
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Call someone, buddy
-	  			<i class="fa fa-phone"></i></a>
+	  		Write to journal
+	  	</div>
+	  	<div class="mood_options_lane_left">
+	  		<i class="fa fa-phone fa-3x"></i>
+	  	</div>
+	  	<div class="mood_options_lane_right">
+	  		Call someone, buddy
 	  	</div>
 	  </div>
 	</div>
