@@ -1,3 +1,108 @@
+html{
+	background-color: #CFD8DC;
+}
+
+/* BOOTSTRAP ADAPTIONS*/
+.container{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	border-radius: 0px;
+}
+
+.jumbotron{
+	border-radius: 0px !important;
+	margin-bottom: 0px;
+}
+
+/*----MOOD LANES VIEW----*/
+
+.mood{
+	font-family: montserrat, helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+.mood_view{
+	width: 100%;
+}
+
+.mood {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	cursor: pointer;
+	margin: 0%;
+}
+
+.mood_1{
+	background-color: #2ecc71;
+}
+
+.mood_1_dark{
+	background-color: #26ab51;	
+}
+
+.mood_2{
+	background-color: #F1C40F;	
+}
+
+.mood_3{
+	background-color: #E67E22;
+}
+
+.mood_4{
+	background-color: #8E44AD;
+}
+
+.mood_5{
+	background-color: #FF0000;
+}
+
+/*----MOOD OPTIONS VIEW----*/
+
+.mood_options_view, .mood_options{
+	text-align: center;
+	width: 100%;
+}
+
+.mood_options_header{
+	color: #5e5e5e;
+}
+
+.mood_options_lane{
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	color: #434343;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px dashed white;
+}
+
+.mood_options_lane:last-child{
+	border-bottom: none;
+}
+
+.mood-option-text-music-stop{
+	display: none;
+}
+
+/*----MOOD STATS VIEW----*/
+
+.mood_stats_view{
+	width: 100%;
+}
+
+.mood_stats_hugs{
+	border: 1px red solid;
+}
+
 /*----BOTTOM LINE----*/
 
 .mood_view_bottom{
@@ -13,86 +118,7 @@
 	padding-bottom: 1%;
 }
 
-/* BOTSTRAP ADAPTIONS*/
-
-.container{
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 100%;
-}
-
-/*----MOOD LANES VIEW----*/
-
-.mood_view{
-	width: 100%;
-}
-
-.mood {
-	width: 100%;
-	float: left;
-	color: #434343;
-	text-align: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	cursor: pointer;
-	margin: 0%;
-}
-
-.mood_stable{
-	background-color: green;	
-}
-
-.mood_fine{
-	background-color: yellow;	
-}
-
-.mood_ok{
-	background-color: orange;
-}
-
-.mood_dizzy{
-	background-color: purple;
-	color: white;
-}
-
-.mood_bad{
-	background-color: red;
-}
-
-/*----MOOD OPTIONS VIEW----*/
-
-.mood_options_view{
-	text-align: center;
-	display: none;
-}
-
-.mood_options_lane{
-	width: 100%;
-	color: #434343;
-	margin-bottom: 1%;
-}
-
-.mood_option_left,.mood_option_right{
-	
-}
-
-.mood_option_left{
-	text-align: right;
-}
-
-.mood_option_right{
-	text-align: left;
-	cursor: pointer;
-}
-
-/*----MOOD STATS VIEW----*/
-
-.mood_stats_view{
-	width: 100%;
-}
-
-.mood_stats_hugs{
-	border: 1px red solid;
+.mood_view_bottom_option{
+	background-color: #CFD8DC;
+	padding: 0%;
 }

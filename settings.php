@@ -7,8 +7,6 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Peace</title>
 
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 <!-- Bootstrap -->
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
@@ -34,39 +32,38 @@
     <![endif]-->
 </head>
 <body>
-
-	<div class="container mood_view">
-		<div class="row mood mood_1">
-			<a href="mind.php?mood=1"><h1>Excellent</h1></a>
-		</div>
-		<div class="row mood mood_2">
-			<a href="mind.php?mood=2"><h1>Good</h1></a>
-		</div>
-		<div class="row mood mood_3">
-			<a href="mind.php?mood=3"><h1>Ok, I guess</h1></a>
-		</div>
-		<div class="row mood mood_4">
-			<a href="mind.php?mood=4"><h1>Bad</h1></a>
-		</div>
-		<div class="row mood mood_5">
-			<a href="mind.php?mood=5"><h1>Really bad</h1></a>
+	<div class="container">
+	
+		<div class="row mood_stats_view">
+			<div class="jumbotron mood_stats_header">
+				<h1>Hello, John!</h1>
+				<h4>Here are your settings.</h4>
+			</div>
 		</div>
 		
-		<!-- BOTTOM -->
-		<div class="mood mood_view_bottom_option">
-			<a href="settings.php"><h1>Settings</h1></a>
+		<div class="row mood_stats_hugs">
+			
 		</div>
-		<div class="mood mood_view_bottom_option">
-			<a href="peace.php"><h1>Start</h1></a>
-		</div>
-		<div class="mood mood_view_bottom_option">
-			<a href="chart.php"><h1>Charts</h1></a>
+		
+		<div class="row mood_view_bottom">
+			<div class="col-md-4 mood_view_bottom_icon">
+				<i class="fa fa-cogs fa-2x"></i>
+			</div>
+			<div class="col-md-4 mood_view_bottom_icon">
+				<a href="peace.php"><i class="fa fa-dashboard fa-2x"></i></a>
+			</div>
+			<div class="col-md-4 mood_view_bottom_icon">
+				<a href="chart.php"><i class="fa fa-bar-chart-o fa-2x"></i></a>
+			</div>
 		</div>
 	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="libraries/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<script src="javascript/clickMood.js"></script>
+	<script src="javascript/settings.js"></script>
 </body>
 </html>

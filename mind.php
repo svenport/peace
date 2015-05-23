@@ -35,21 +35,39 @@
 </head>
 <body>
 
-	<div class="container mood_view">
-		<div class="row mood mood_1">
-			<a href="mind.php?mood=1"><h1>Excellent</h1></a>
+	<div class="container mood_options_view">
+	
+		<div class="jumbotron mood_options_header mood_<?= $_GET['mood'] ?>_dark">
+			<h1>Hej Lovely!</h1>
 		</div>
-		<div class="row mood mood_2">
-			<a href="mind.php?mood=2"><h1>Good</h1></a>
-		</div>
-		<div class="row mood mood_3">
-			<a href="mind.php?mood=3"><h1>Ok, I guess</h1></a>
-		</div>
-		<div class="row mood mood_4">
-			<a href="mind.php?mood=4"><h1>Bad</h1></a>
-		</div>
-		<div class="row mood mood_5">
-			<a href="mind.php?mood=5"><h1>Really bad</h1></a>
+	
+		<div class="container mood_options mood_<?= $_GET['mood'] ?>">
+			<div class="row mood_options_lane">
+				<h1>Track Mood</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<h1>Upload Pic</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<h1>Tweet</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<div class="mood-option-text-music"><h1>Play music</h1></div>
+				<div class="mood-option-text-music-stop"><h1>Stop it</h1></div>
+				
+				<iframe id="mood-music" style="display: none;"
+					src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" 
+					width="60" height="60" scrolling="no" 
+					frameborder="no"></iframe>
+			</div>
+			<div class="row mood_options_lane">
+				<h1>Journal</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<a class="mood_option_call" href="tel:***REMOVED***"><h1>Call</h1></a>
+			</div>
+	
+			
 		</div>
 		
 		<!-- BOTTOM -->
@@ -63,10 +81,15 @@
 			<a href="chart.php"><h1>Charts</h1></a>
 		</div>
 	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="libraries/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<script src="javascript/clickMood.js"></script>
+	<script src="javascript/mind.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="libraries/soundcloud/api.js"></script>
 </body>
 </html>
