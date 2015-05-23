@@ -9,6 +9,12 @@ canvas{
 
 .peace_header{
 	color: #5e5e5e;
+	text-align: center;
+}
+
+.peace_header{
+	color: black;
+	background-color: white;
 }
 
 /* BOOTSTRAP ADAPTIONS*/
@@ -24,6 +30,7 @@ canvas{
 .jumbotron{
 	border-radius: 0px !important;
 	margin-bottom: 0px;
+	background-color: white;
 }
 
 /*----MOOD LANES VIEW----*/
@@ -151,13 +158,13 @@ canvas{
 }
 
 .mood_stats_header{
-	color: #5e5e5e;
-	background-color: #8BC34A;
+	color: white;
+	background-color: #E91E63;
 }
 
 .mood_stats_hugs{
-	border-top: 1px dashed white;
-	background-color: #eeeeee;
+	border-top: 1px dashed black;
+	background-color: white;
 	width: 100%;
 	margin: 0%;
 	padding: 0%;
@@ -168,7 +175,7 @@ canvas{
 }
 
 .mood_stats_chart{
-	background-color: #eeeeee;
+	background-color: white;
 	width: 100%;
 	margin: 0%;
 	padding: 0%;

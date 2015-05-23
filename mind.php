@@ -35,9 +35,9 @@
 </head>
 <body>
 
-	<div class="container mood_options_view">
+	<div class="container peace_header">
 	
-		<div class="jumbotron mood_options_header">
+		<div class="jumbotron">
 			<h1>Hej Lovely!</h1>
 		</div>
 	

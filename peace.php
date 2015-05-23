@@ -35,7 +35,7 @@
 </head>
 <body>
 
-	<div class="container mood_start_page">
+	<div class="container peace_header">
 		
 		<div class="jumbotron">
 			<h1>Peace!</h1>
@@ -65,10 +65,13 @@
 			<a href="chart.php"><h1>Charts</h1></a>
 		</div>
 	</div>
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="libraries/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<script src="javascript/clickMood.js"></script>
 </body>
 </html>
