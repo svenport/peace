@@ -96,9 +96,9 @@
 				<div class="col-md-5 mood_option_left">
 					<i class="fa fa-headphones fa-3x"></i>
 				</div>
-				<div class="col-md-7 mood_option_right font-size-line">Hear music</div>
+				<div class="col-md-7 mood_option_right font-size-line mood_option_playtrack">Hear music</div>
 			</div>
-	<!-- 		TWEET -->
+	<!-- 		JOURNAL -->
 			<div class="row mood_options_lane">
 				<div class="col-md-5 mood_option_left">
 					<i class="fa fa-file-text-o fa-3x"></i>

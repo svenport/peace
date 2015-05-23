@@ -35,7 +35,10 @@
 	<div class="container">
 	
 		<div class="row moot_stats_view">
-		
+			<div class="jumbotron mood_stats_header">
+				<h1>Hello, John!</h1>
+				<h4>Nice to meet you.</h4>
+			</div>
 		</div>
 		
 		<div class="row mood_view_bottom">
