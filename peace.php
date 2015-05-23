@@ -136,5 +136,6 @@
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
 	<script src="javascript/clickMood.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
 </body>
 </html>

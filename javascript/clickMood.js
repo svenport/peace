@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+	SC.initialize({
+		client_id: "***REMOVED***"
+	});
+
 	$(".mood").on("click", function(){
 		var backgroundcolor = $(this).css("background-color"),
 			color = $(this).css("color"),
@@ -38,7 +43,13 @@ $(document).ready(function(){
 		}
 		
 		$(".mood_option_playtrack").on("click", function(){
-			alert("playtrack");
+			// alert("playtrack");
+			SC.stream("/tracks/98682937", {
+				autoPlay: true,
+				ontimedcomments: function(comments){
+				console.log(comments[0].body);
+				}
+			});
 		});
 	});
 });
