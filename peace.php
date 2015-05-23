@@ -35,7 +35,12 @@
 </head>
 <body>
 
-	<div class="container mood_view">
+	<div class="container mood_start_page">
+		
+		<div class="jumbotron">
+			<h1>Peace!</h1>
+		</div>
+	
 		<div class="row mood mood_1">
 			<a href="mind.php?mood=1"><h1>Excellent</h1></a>
 		</div>
@@ -54,10 +59,7 @@
 		
 		<!-- BOTTOM -->
 		<div class="mood mood_view_bottom_option">
-			<a href="settings.php"><h1>Settings</h1></a>
-		</div>
-		<div class="mood mood_view_bottom_option">
-			<a href="peace.php"><h1>Start</h1></a>
+			<a href="peace.php"><h1>Home</h1></a>
 		</div>
 		<div class="mood mood_view_bottom_option">
 			<a href="chart.php"><h1>Charts</h1></a>

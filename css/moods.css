@@ -2,6 +2,15 @@ html{
 	background-color: #CFD8DC;
 }
 
+canvas{
+	padding: 0px;
+	margin: 0px;
+}
+
+.peace_header{
+	color: #5e5e5e;
+}
+
 /* BOOTSTRAP ADAPTIONS*/
 .container{
 	padding-left: 0px;
@@ -52,21 +61,37 @@ html{
 	background-color: #F1C40F;	
 }
 
+.mood_2_dark{
+	background-color: #d8a90e;	
+}
+
 .mood_3{
 	background-color: #E67E22;
+}
+
+.mood_3_dark{
+	background-color: #c75e17;	
 }
 
 .mood_4{
 	background-color: #8E44AD;
 }
 
+.mood_4_dark{
+	background-color: #6b2689;	
+}
+
 .mood_5{
 	background-color: #FF0000;
 }
 
+.mood_5_dark{
+	background-color: #cf0005;	
+}
+
 /*----MOOD OPTIONS VIEW----*/
 
-.mood_options_view, .mood_options{
+.mood_start_page, .mood_options_view, .mood_options, .mood_stats_view{
 	text-align: center;
 	width: 100%;
 }
@@ -93,14 +118,60 @@ html{
 	display: none;
 }
 
+.mood-tracked{
+	display: none;
+	cursor: default;
+}
+
+.journal-entry-title, .journal-entry-text,.add-journal-entry-submit,.add-journal-entry-done{
+	display: none;
+}
+
+.journal-entry-title-text, .journal-entry-text-area{
+	border: none;
+	padding: 2px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 90%;
+}
+
+.take_steps{
+	
+}
+
+.take_step{
+	display: none;	
+}
+
 /*----MOOD STATS VIEW----*/
 
 .mood_stats_view{
 	width: 100%;
 }
 
+.mood_stats_header{
+	color: #5e5e5e;
+	background-color: #8BC34A;
+}
+
 .mood_stats_hugs{
-	border: 1px red solid;
+	border-top: 1px dashed white;
+	background-color: #eeeeee;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+.mood_stats_hugs > h1{
+	color: #5e5e5e;
+}
+
+.mood_stats_chart{
+	background-color: #eeeeee;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
 }
 
 /*----BOTTOM LINE----*/

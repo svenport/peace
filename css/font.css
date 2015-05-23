@@ -2,11 +2,21 @@
 	font-size: 1.5em;
 }
 
-h1, a, .mood_options_lane{
+.journal-entry-title-text, .journal-entry-text-area{
+		font-size: 1.0em;
+}
+
+h1, a, .mood_options_lane, .mood_stats_hugs{
 	font-family: montserrat, helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: white;
+}
+
+h2,.mood-tracked,.add-journal-entry-done, .take_step{
+	font-family: montserrat, helvetica, sans-serif;
+	font-weight: 500;
+	color: #818181;
 }
 
 a:hover{

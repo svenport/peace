@@ -37,19 +37,20 @@
 
 	<div class="container mood_options_view">
 	
-		<div class="jumbotron mood_options_header mood_<?= $_GET['mood'] ?>_dark">
+		<div class="jumbotron mood_options_header">
 			<h1>Hej Lovely!</h1>
 		</div>
 	
 		<div class="container mood_options mood_<?= $_GET['mood'] ?>">
 			<div class="row mood_options_lane">
-				<h1>Track Mood</h1>
-			</div>
-			<div class="row mood_options_lane">
-				<h1>Upload Pic</h1>
+				<h1 class="track-your-mood">Save Mood</h1>
+				<h1 class="mood-tracked">Mood saved <i class="fa fa-thumbs-o-up"></i></h1>
 			</div>
 			<div class="row mood_options_lane">
 				<h1>Tweet</h1>
+<!-- 				<iframe src="http://twitter.com/home?status=Put your message here and include your username ala @marketingV2"> -->
+				
+<!-- 				</iframe> -->
 			</div>
 			<div class="row mood_options_lane">
 				<div class="mood-option-text-music"><h1>Play music</h1></div>
@@ -61,7 +62,18 @@
 					frameborder="no"></iframe>
 			</div>
 			<div class="row mood_options_lane">
-				<h1>Journal</h1>
+				<h1 class="add-journal-entry">Journal</h1>
+				<h1 class="add-journal-entry-done">Thanks <i class="fa fa-heart-o"></i></h1>
+				<h2 class="journal-entry-title"><input class="journal-entry-title-text" value="" placeholder="Title"/></h1>
+				<h2 class="journal-entry-text"><textarea class="journal-entry-text-area" placeholder="Write about your day, honey...."></textarea></h1>
+				<h1 class="add-journal-entry-submit"><i class="fa fa-plus-square-o"></i> Submit</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<h1 class="take_steps">Distraction</h1>
+				<h1 class="take_step take-step-1">Go for a walk</h1>
+				<h1 class="take_step take-step-2">Solve a riddle</h1>
+				<h1 class="take_step take-step-3">Paint a mandala</h1>
+				<h1 class="take_step take-step-4">Medidate</h1>
 			</div>
 			<div class="row mood_options_lane">
 				<a class="mood_option_call" href="tel:***REMOVED***"><h1>Call</h1></a>
@@ -72,10 +84,7 @@
 		
 		<!-- BOTTOM -->
 		<div class="mood mood_view_bottom_option">
-			<a href="settings.php"><h1>Settings</h1></a>
-		</div>
-		<div class="mood mood_view_bottom_option">
-			<a href="peace.php"><h1>Start</h1></a>
+			<a href="peace.php"><h1>Home</h1></a>
 		</div>
 		<div class="mood mood_view_bottom_option">
 			<a href="chart.php"><h1>Charts</h1></a>

@@ -7,6 +7,8 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Peace</title>
 
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
 <!-- Bootstrap -->
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
@@ -32,33 +34,49 @@
     <![endif]-->
 </head>
 <body>
-	<div class="container">
+	<div class="container mood_stats_view">
 	
-		<div class="row mood_stats_view">
-			<div class="jumbotron mood_stats_header">
-				<h1>Hello, John!</h1>
-				<h4>Here are your stats.</h4>
-			</div>
+		<div class="jumbotron mood_stats_header">
+			<h1>Your Stats</h1>
 		</div>
 		
 		<div class="row mood_stats_hugs">
-			You very mostly dizzy on: Mondays
+			<h1>best day:</h1>
 		</div>
 		
+		<div class="row mood_stats_hugs">
+			<h2>Tuesday</h2>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Get hugs:</h1>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h2>Sunday</h2>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Monthly:</h1>
+		</div>
 		<div class="row mood_stats_chart">
-			<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+			<canvas id="myChartMonthly" width="250" height="290"></canvas>
 		</div>
 		
-		<div class="row mood_view_bottom">
-			<div class="col-md-4 mood_view_bottom_icon">
-				<i class="fa fa-cogs fa-2x"></i>
-			</div>
-			<div class="col-md-4 mood_view_bottom_icon">
-				<a href="peace.php"><i class="fa fa-dashboard fa-2x"></i></a>
-			</div>
-			<div class="col-md-4 mood_view_bottom_icon">
-				<a href="chart.php"><i class="fa fa-bar-chart-o fa-2x"></i></a>
-			</div>
+		<div class="row mood_stats_hugs">
+			<h1>Weekly:</h1>
+		</div>
+		<div class="row mood_stats_chart">
+			<canvas id="myChartWeekly" width="250" height="290"></canvas>
+		</div>
+		
+		
+		<!-- BOTTOM -->
+		<div class="mood mood_view_bottom_option">
+			<a href="peace.php"><h1>Home</h1></a>
+		</div>
+		<div class="mood mood_view_bottom_option">
+			<a href="chart.php"><h1>Charts</h1></a>
 		</div>
 	</div>
 
@@ -68,7 +86,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<script src="libraries/canvasjs/canvasjs.1.6.2.min.js"></script>
+	<script src="libraries/Chart.min.js"></script>
 	<script src="javascript/charts.js"></script>
 </body>
 </html>
