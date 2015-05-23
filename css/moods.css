@@ -84,10 +84,15 @@
 
 .mood_option_right{
 	text-align: left;
+	cursor: pointer;
 }
 
 /*----MOOD STATS VIEW----*/
 
-.moot_stats_view{
+.mood_stats_view{
 	width: 100%;
+}
+
+.mood_stats_hugs{
+	border: 1px red solid;
 }

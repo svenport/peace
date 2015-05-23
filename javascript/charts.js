@@ -10,10 +10,10 @@ $(document).ready(function(){
 			type: "column",
 			dataPoints: [
 				{ label: "stable",  y: 10  },
-				{ label: "fine", y: 15  },
+				{ label: "fine", y: 34  },
 				{ label: "ok", y: 25  },
-				{ label: "dizzy",  y: 30  },
-				{ label: "bad",  y: 28  }
+				{ label: "dizzy",  y: 12  },
+				{ label: "bad",  y: 4  }
 			]
 		}
 		]

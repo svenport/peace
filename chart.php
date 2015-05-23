@@ -34,12 +34,18 @@
 <body>
 	<div class="container">
 	
-		<div class="row moot_stats_view">
+		<div class="row mood_stats_view">
 			<div class="jumbotron mood_stats_header">
 				<h1>Hello, John!</h1>
 				<h4>Here are your stats.</h4>
 			</div>
-			
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			You very mostly dizzy on: Mondays
+		</div>
+		
+		<div class="row mood_stats_chart">
 			<div id="chartContainer" style="height: 300px; width: 100%;"></div>
 		</div>
 		

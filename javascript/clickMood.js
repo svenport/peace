@@ -1,5 +1,7 @@
 $(document).ready(function(){
-
+	
+	$("#mood-music").hide();
+	
 	SC.initialize({
 		client_id: "***REMOVED***"
 	});
@@ -16,40 +18,18 @@ $(document).ready(function(){
 		$(".mood_view_bottom_icon").css("background-color", backgroundcolor);
 		$(".mood_view_bottom_icon").css("color", color);
 		
-		if($(this).hasClass('mood_stable')){
-			tmp = $(".mood_options_lane").find(".mood_option_right").get(0);
-			tmp = $(tmp);
-			tmp.css("text-decoration", "underline");
-		}
-		
-		if($(this).hasClass('mood_fine')){
-			tmp = $(".mood_options_lane").find(".mood_option_right").get(1);
-			$(tmp).css("text-decoration", "underline");
-		}
-		
-		if($(this).hasClass('mood_ok')){
-			tmp = $(".mood_options_lane").find(".mood_option_right").get(2);
-			$(tmp).css("text-decoration", "underline");
-		}
-		
-		if($(this).hasClass('mood_dizzy')){
-			tmp = $(".mood_options_lane").find(".mood_option_right").get(4);
-			$(tmp).css("text-decoration", "underline");
-		}
-		
-		if($(this).hasClass('mood_bad')){
-			tmp = $(".mood_options_lane").find(".mood_option_right").get(5);
-			$(tmp).css("text-decoration", "underline");
-		}
-		
 		$(".mood_option_playtrack").on("click", function(){
-			// alert("playtrack");
-			SC.stream("/tracks/98682937", {
-				autoPlay: true,
-				ontimedcomments: function(comments){
-				console.log(comments[0].body);
-				}
-			});
+			try {
+				$(".mood-option-text-music").hide();
+				$("#mood-music").show();
+				var iFrameElement = $("#mood-music")[0];
+				SC.Widget(iFrameElement).play();
+//				SC.stream("/tracks/98682937", {
+//					autoPlay: true
+//				});
+			} catch (e) {
+				console.log("CATCH", e);
+			}
 		});
 	});
 });

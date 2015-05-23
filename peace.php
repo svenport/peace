@@ -96,9 +96,14 @@
 				<div class="col-md-5 mood_option_left">
 					<i class="fa fa-headphones fa-3x"></i>
 				</div>
-				<div class="col-md-7 mood_option_right font-size-line mood_option_playtrack">Hear music
+				<div class="col-md-7 mood_option_right font-size-line mood_option_playtrack">
 				
-				    <iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=true&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" width="320" height="100" scrolling="no" frameborder="no"></iframe>
+				<div class="mood-option-text-music">Hear music</div>
+				
+				<iframe id="mood-music" 
+					src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" 
+					width="60" height="60" scrolling="no" 
+					frameborder="no"></iframe>
 
 				
 				</div>
@@ -142,5 +147,6 @@
 
 	<script src="javascript/clickMood.js"></script>
     <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="libraries/soundcloud/api.js"></script>
 </body>
 </html>
