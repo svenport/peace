@@ -1,5 +1,5 @@
 html{
-	background-color: #CFD8DC;
+	background-color: white;
 }
 
 canvas{
@@ -15,6 +15,14 @@ canvas{
 .peace_header{
 	color: black;
 	background-color: white;
+}
+
+.peace_home{
+	display:none;
+}
+
+img.peace_logo{
+	height: 150px;
 }
 
 /* BOOTSTRAP ADAPTIONS*/

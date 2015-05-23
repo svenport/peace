@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Peace</title>
 
@@ -33,6 +35,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
+<link rel="icon" type="image/png" sizes="72x72"  href="peace.png">
+<link rel="apple-touch-icon" href="apple-icon.png">
 <body>
 	<div class="container mood_stats_view">
 	
