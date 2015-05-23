@@ -50,14 +50,14 @@
 			<i class="fa fa-frown-o fa-4x"></i>
 		</div>
 		<div class="row mood_view_bottom">
-			<div class="mood_view_bottom_icon">
+			<div class="col-md-4 mood_view_bottom_icon">
 				<i class="fa fa-cogs fa-2x"></i>
 			</div>
-			<div class="mood_view_bottom_icon">
-				<i class="fa fa-dashboard fa-2x"></i>
+			<div class="col-md-4 mood_view_bottom_icon">
+				<a href="peace.php"><i class="fa fa-dashboard fa-2x"></i></a>
 			</div>
-			<div class="mood_view_bottom_icon">
-				<i class="fa fa-bar-chart-o fa-2x"></i>
+			<div class="col-md-4 mood_view_bottom_icon">
+				<a href="chart.php"><i class="fa fa-bar-chart-o fa-2x"></i></a>
 			</div>
 		</div>
 	</div>
@@ -110,7 +110,9 @@
 				<div class="col-md-5 mood_option_left">
 					<i class="fa fa-phone fa-3x"></i>
 				</div>
-				<div class="col-md-7 mood_option_right font-size-line">Call someone, buddy</div>
+				<div class="col-md-7 mood_option_right font-size-line">
+					<a class="mood_option_call" href="tel:***REMOVED***">Call someone, buddy</a>
+				</div>
 			</div>
 	
 			<div class="row mood_view_bottom">
@@ -118,10 +120,10 @@
 					<i class="fa fa-cogs fa-2x"></i>
 				</div>
 				<div class="col-md-4 mood_view_bottom_icon">
-					<a href="/peace.php"><i class="fa fa-dashboard fa-2x"></i></a>
+					<a href="peace.php"><i class="fa fa-dashboard fa-2x"></i></a>
 				</div>
 				<div class="col-md-4 mood_view_bottom_icon">
-					<a href="/chart.php"><i class="fa fa-bar-chart-o fa-2x"></i></a>
+					<a href="chart.php"><i class="fa fa-bar-chart-o fa-2x"></i></a>
 				</div>
 			</div>
 		</div>
