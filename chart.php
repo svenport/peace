@@ -37,8 +37,10 @@
 		<div class="row moot_stats_view">
 			<div class="jumbotron mood_stats_header">
 				<h1>Hello, John!</h1>
-				<h4>Nice to meet you.</h4>
+				<h4>Here are your stats.</h4>
 			</div>
+			
+			<div id="chartContainer" style="height: 300px; width: 100%;"></div>
 		</div>
 		
 		<div class="row mood_view_bottom">
@@ -60,6 +62,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<script src="javascript/clickMood.js"></script>
+	<script src="libraries/canvasjs/canvasjs.1.6.2.min.js"></script>
+	<script src="javascript/charts.js"></script>
 </body>
 </html>
