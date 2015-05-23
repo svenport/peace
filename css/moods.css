@@ -37,7 +37,6 @@ canvas{
 
 .mood{
 	font-family: montserrat, helvetica, sans-serif;
-	text-transform: uppercase;
 	font-weight: 700;
 	color: white;
 }
@@ -103,8 +102,16 @@ canvas{
 	width: 100%;
 }
 
+.mood_options_view > h1{
+	color: black;
+}
+
+.mood_options_header > a{
+	color: black;
+}
+
 .mood_options_header{
-	color: #5e5e5e;
+	color: black;
 }
 
 .mood_options_lane{

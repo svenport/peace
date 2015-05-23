@@ -37,11 +37,11 @@
 	<div class="container mood_stats_view">
 	
 		<div class="jumbotron mood_stats_header">
-			<h1>Your Stats</h1>
+			<a href="peace.php"><h1>Your Stats</h1></a>
 		</div>
 		
 		<div class="row mood_stats_hugs">
-			<h1>best day:</h1>
+			<h1>Best day:</h1>
 		</div>
 		
 		<div class="row mood_stats_hugs">

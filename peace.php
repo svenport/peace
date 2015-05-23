@@ -38,7 +38,7 @@
 	<div class="container peace_header">
 		
 		<div class="jumbotron">
-			<h1>Peace!</h1>
+			<h1>Peace</h1>
 		</div>
 	
 		<div class="row mood mood_1">
