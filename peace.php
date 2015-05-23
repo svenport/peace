@@ -96,7 +96,12 @@
 				<div class="col-md-5 mood_option_left">
 					<i class="fa fa-headphones fa-3x"></i>
 				</div>
-				<div class="col-md-7 mood_option_right font-size-line mood_option_playtrack">Hear music</div>
+				<div class="col-md-7 mood_option_right font-size-line mood_option_playtrack">Hear music
+				
+				    <iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=true&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" width="320" height="100" scrolling="no" frameborder="no"></iframe>
+
+				
+				</div>
 			</div>
 	<!-- 		JOURNAL -->
 			<div class="row mood_options_lane">
