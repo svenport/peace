@@ -4,39 +4,39 @@
 	width: 100%;
 	color: #434343;
 	text-align: center;
+	margin: 0%;
 }
 
 .mood_view_bottom_icon{
-	width: auto;
-	float: left;
-	padding: 1%;
-	width: 33.3%;
 	cursor: pointer;
+	padding-top: 1%;
 }
 
 /* BOTSTRAP ADAPTIONS*/
 
-.containers{
+.container{
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
 }
 
 /*----MOOD LANES VIEW----*/
 
 .mood_view{
-	xwidth: 100%;
-	xheight: 100%;
+	width: 100%;
 }
 
 .mood {
 	width: 100%;
-	xheight: 90px;
 	float: left;
 	color: #434343;
 	text-align: center;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	cursor: pointer;
+	margin: 0%;
 }
 
 .mood_stable{
@@ -83,4 +83,10 @@
 
 .mood_option_right{
 	text-align: left;
+}
+
+/*----MOOD STATS VIEW----*/
+
+.moot_stats_view{
+	width: 100%;
 }
