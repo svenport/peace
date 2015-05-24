@@ -24,7 +24,7 @@ We believe we can help millions of users, specially when using it parallelly to 
 
 If you want to participate and test the app prototype, you can do it by:
 
-1. Open [this link]() in your mobile browser
+1. Open [this link](http://svenport.de/peace/peace.php) in your mobile browser
 2. Add it to your home screen as an app 
 ![Add as app](https://github.com/svenport/peace/blob/master/screengrabs/grab.jpg)
 3. Tap it and and play with it.
