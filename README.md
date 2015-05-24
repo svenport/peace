@@ -14,6 +14,8 @@ We consider that Mental health is still taboo or not seriously covered of by app
 
 ##Our work
  
+![Cover Image of Peace](https://github.com/svenport/peace/blob/master/screengrabs/cover.jpg)
+
 We designed a mood tracking application prototype. We named it **Peace**. It lets you input and track your mood over time, provides tools to cheer you up, reach a safe space, or report an emergency. 
 
 We believe we can help millions of users, specially when using it parallelly to professional counseling.
@@ -22,9 +24,12 @@ We believe we can help millions of users, specially when using it parallelly to 
 
 If you want to participate and test the app prototype, you can do it by:
 
-1. Opening this link in your mobile browser, 
+1. Open [this link]() in your mobile browser, 
+![Add as app](https://github.com/svenport/peace/blob/master/screengrabs/grab.jpg)
 2. Add it to your home screen as an app 
+![Playtime](https://github.com/svenport/peace/blob/master/screengrabs/home.jpg)
 3. Tap it and and play with it.
+![Playtime](https://github.com/svenport/peace/blob/master/screengrabs/app.jpg)
 
 ## Future
 We would like to make this a useful, running app that you can work natively with. For this we are considering applying for some funding and professional help from psychologysts to make it a fully functional piece of work.
