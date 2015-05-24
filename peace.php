@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable = no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Peace</title>
 
@@ -45,6 +45,8 @@
 		</div>
 	</div>
 
+	<!-- HOME PAGE -->
+
 	<div class="container peace_header peace_home">
 		
 		
@@ -53,36 +55,135 @@
 		</div>
 	
 		<div class="row mood mood_1">
-			<a href="mind.php?mood=1"><h1>Excellent</h1></a>
+			<div id="mood-time-1" class="mood1 mood-time"><h1>Excellent</h1></div>
 		</div>
 		<div class="row mood mood_2">
-			<a href="mind.php?mood=2"><h1>Good</h1></a>
+			<div id="mood-time-2" class="mood2 mood-time"><h1>Good</h1></div>
 		</div>
 		<div class="row mood mood_3">
-			<a href="mind.php?mood=3"><h1>Ok, I guess</h1></a>
+			<div id="mood-time-3" class="mood3 mood-time"><h1>Ok, I guess</h1></div>
 		</div>
 		<div class="row mood mood_4">
-			<a href="mind.php?mood=4"><h1>Bad</h1></a>
+			<div id="mood-time-4" class="mood4 mood-time"><h1>Bad</h1></div>
 		</div>
 		<div class="row mood mood_5">
-			<a href="mind.php?mood=5"><h1>Really bad</h1></a>
+			<div id="mood-time-5" class="mood5 mood-time"><h1>Really bad</h1></div>
 		</div>
 		
-		<!-- BOTTOM -->
-		<div class="mood mood_view_bottom_option">
-			<a href="peace.php"><h1>Home</h1></a>
-		</div>
-		<div class="mood mood_view_bottom_option">
-			<a href="chart.php"><h1>Charts</h1></a>
-		</div>
 	</div>
+
+	<!-- OPTIONS PAGE -->
+
+	<div class="container peace_header mood_options_view" style="display: none;">
 	
+		<div class="jumbotron mood_options_header">
+			<div class="go-home"><h1>Hej Lovely!</h1></div>
+		</div>
+	
+		<div class="container mood_options">
+			<div class="row mood_options_lane">
+				<h1 class="track-your-mood">Save Mood</h1>
+				<h1 class="mood-tracked">Mood saved <i class="fa fa-thumbs-o-up"></i></h1>
+			</div>
+			<div class="row mood_options_lane">
+				<h1>Tweet</h1>
+<!-- 				<iframe src="http://twitter.com/home?status=Put your message here and include your username ala @marketingV2"> -->
+				
+<!-- 				</iframe> -->
+			</div>
+			<div class="row mood_options_lane">
+				<div class="mood-option-text-music"><h1>Play music</h1></div>
+				<div class="mood-option-text-music-stop"><h1>Stop it</h1></div>
+				
+				<iframe id="mood-music" style="display: none;"
+					src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" 
+					width="60" height="60" scrolling="no" 
+					frameborder="no"></iframe>
+			</div>
+			<div class="row mood_options_lane">
+				<h1 class="add-journal-entry">Journal</h1>
+				<h1 class="add-journal-entry-done">Thanks <i class="fa fa-heart-o"></i></h1>
+				<h2 class="journal-entry-title"><input class="journal-entry-title-text" value="" placeholder="Title"/></h1>
+				<h2 class="journal-entry-text"><textarea class="journal-entry-text-area" placeholder="Write about your day, honey...."></textarea></h1>
+				<h1 class="add-journal-entry-submit"><i class="fa fa-plus-square-o"></i> Submit</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<h1 class="take_steps">Distraction</h1>
+				<h1 class="take_step take-step-1">Go for a walk</h1>
+				<h1 class="take_step take-step-2">Solve a riddle</h1>
+				<h1 class="take_step take-step-3">Paint a mandala</h1>
+				<h1 class="take_step take-step-4">Medidate</h1>
+			</div>
+			<div class="row mood_options_lane">
+				<a class="mood_option_call" href="tel:***REMOVED***"><h1>Call</h1></a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- CHARTS PAGE -->
+
+	<div class="container mood_stats_view" style="display:none;">
+
+		<div class="jumbotron mood_stats_header">
+			<div class="go-home"><h1>Your stats</h1></div>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Best day:</h1>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h2>Tuesday</h2>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Get hugs:</h1>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h2>Sunday</h2>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Monthly:</h1>
+		</div>
+		<div class="row mood_stats_chart">
+			<canvas id="myChartMonthly" width="250" height="290"></canvas>
+		</div>
+		
+		<div class="row mood_stats_hugs">
+			<h1>Weekly:</h1>
+		</div>
+		<div class="row mood_stats_chart">
+			<canvas id="myChartWeekly" width="250" height="290"></canvas>
+		</div>
+
+		
+	</div>
+
+	<!-- BOTTOM -->
+	<div class="mood mood_view_bottom_option" style="display:none">
+		<div class="go-home"><h1>Home</h1></div>
+	</div>
+	<div class="mood mood_view_bottom_option" style="display:none">
+		<div class="show-charts"><h1>Charts</h1></div>
+	</div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="libraries/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
+
+	<!-- MIND PAGE-->
+
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="libraries/soundcloud/api.js"></script>
+
+    <!-- CHARTS PAGE -->
+
+    <script src="libraries/Chart.min.js"></script>
 	
 	<script src="javascript/peace.js"></script>
 </body>
