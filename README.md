@@ -1,6 +1,6 @@
 # Peace
 
-Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon). It runs as a web app, so you can pretty much open it in almost any device with an internet connection (display quality may vary). 
+Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon). It runs as a web app, so you can pretty much open it in almost any device with an internet connection (display quality may vary). **Right now is mostly a mockup, but if you join this piece by forking it, we could make it a fully functional app.**
 
 ##Context
 
@@ -30,3 +30,6 @@ If you want to participate and test the app prototype, you can do it by:
 
 ## Future
 We would like to make this a useful, running app that you can work natively with. For this we are considering applying for some funding and professional help from psychologysts to make it a fully functional piece of work.
+
+## Risks
+This has been worked by a group of passionate people that, while aiming for empathy, are not psychology professionals. Hence this app, as it is today (May 25th, 2015) might have underlying risks. We want to have an empowering tool based on empathy and real need. Please fork, comment, or pass this repository to your friends. The more people involved, the better. 
