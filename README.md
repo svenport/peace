@@ -4,13 +4,11 @@ Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for 
 
 ##Context
 
-Currently 350 Mio. people worldwide have depression.
+[**Currently 350 Mio. people worldwide have depression.**](http://www.who.int/mediacentre/factsheets/fs369/en/)
  
-For treatment, most patients work with psychologist need medicine and close attention, but in many cases the attention part is easier said than done. 
+For treatment, most patients work with psychologist need medicine and close attention, but in many cases the attention part is easier said than done. The type and dose of medicine needs to be adjusted to everyone individually. Its fit is measured through an approximated expectation of changes in mood, sleeping and eating habits, etc. Patients in many cases also need to be monitored by psychologists to know about the current state of their condition depression. 
 
-The type and dose of medicine needs to be adjusted to everyone individually. Its fit is measured through your change in mood, sleeping and eating habits, etc. Those also need to be monitored by your psychologists to know about the current state of your depression. 
-
-We consider that Mental health is still taboo or not seriously covered of by app makers. So we decided to assess that during our hackathon project.
+We consider that [Mental health is still taboo or not seriously covered of by app makers](https://github.com/svenport/peace/blob/master/screengrabs/mental%20health%20app%20mess.jpg). So we decided to assess that during our hackathon project. We wanted to make something pretty, empathetic, useful, and simple that can help anyone with a phone and an internet connection.
 
 ##Our work
  
