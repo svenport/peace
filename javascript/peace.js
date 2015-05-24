@@ -1,7 +1,6 @@
 var mood = 0;
 $(document).ready(function(){
-	
-	$( ".peace_logo" ).fadeOut( 2000, function() {
+	$( ".peace_logo" ).fadeOut( 3000, function() {
 		$( ".peace_home" ).fadeIn(1000);
 		$(".mood_view_bottom_option").fadeIn(1000);
 	});
@@ -141,6 +140,7 @@ function initOptions(){
 	$(".fa-twitter-add").hide();
 	$(".fa-twitter-done").hide();
 	$(".tweet-added").hide();
+	$("#chars-left").hide();
 
 	$(".take_steps").show();
 	$(".take-step-1").hide();
@@ -183,14 +183,16 @@ function initOptions(){
 	$(".add-tweet").on("click", function(){
 		$(this).fadeOut( 350, function() {
 			$(".addTweet").fadeIn( 350 );
-			$(".fa-twitter").fadeIn( 350 );
+			$(".fa-twitter-add").fadeIn( 350 );
+			$("#chars-left").fadeIn(350);
 		});
 	});
 	
-	$(".fa-twitter").on("click", function(){
+	$(".fa-twitter-add").on("click", function(){
 		$(this).fadeOut( 350, function() {
 			$(".addTweet").hide();
 			$(".fa-twitter-add").hide();
+			$("#chars-left").hide();
 			$(".tweet-added").fadeIn( 350 );
 			$(".fa-twitter-done").fadeIn( 350 );
 		});
@@ -238,3 +240,80 @@ function initOptions(){
 		});
 	});
 };
+
+(function( $ ) {
+	$.Tweet = function( element ) {
+		this.$el = $( element );
+		if( this.$el.length ) {
+			this.init();
+		}	
+	}
+	
+	$.Tweet.prototype = {
+		init: function() {
+			this.$chars = this.$el.find( "#chars-left" );
+			this.$text = this.$el.find( "#tweet" );
+			//this.$response = this.$el.find( "#response" );
+			
+			this.count();
+			this.send();
+		},
+		send: function() {
+			var self = this;
+			self.$el.on( "submit", function( e ) {
+				e.preventDefault();
+				var tweet = self.$text.val();
+				$.post( "lib/ajax.php", { tweet: tweet }, function( data ) {
+					if( data.id && /^\d+$/.test( data.id ) ) {
+						//self.$response.text( "Tweet sent successfully" );	
+					}
+				});
+				
+			});
+		},
+		count: function() {
+			var self = this;
+			var left = 140;
+			self.$text.on( "keydown", function( e ) {
+				var code = e.keyCode;
+				var remaining = 0;
+				if( code !== 8 ) {
+					remaining = left--;	
+				} else {
+					remaining =  left++;
+					if( remaining >= left ) {
+						remaining = left;
+					}	
+				}
+				
+				if( remaining <= 0 ) {
+					self.$chars.addClass( "exceed" );
+				} else {
+					self.$chars.removeClass( "exceed" );	
+				}
+				
+				self.$chars.text( remaining );	
+			});
+			
+			self.$text.on( "paste", function() {
+			  setTimeout(function() {
+				var value = self.$text.val();
+				var rem = left - value.length;
+				if( rem <= 0 ) {
+					self.$chars.addClass( "exceed" );
+				} else {
+					self.$chars.removeClass( "exceed" );	
+				}
+				
+				self.$chars.text( rem );
+			  }, 300);
+			});
+			
+		}
+	};
+	
+	$(function() {
+		var $tweet = new $.Tweet( "#tweet-form" );
+	});
+	
+})( jQuery );

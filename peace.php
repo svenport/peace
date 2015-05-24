@@ -37,6 +37,8 @@
     
 <link rel="icon" type="image/png" sizes="72x72"  href="peace.png">
 <link rel="apple-touch-icon" href="apple-icon.png">
+
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 </head>
 <body>
 	
@@ -88,7 +90,14 @@
 			</div>
 			<div class="row mood_options_lane">
 				<h1 class="add-tweet">Tweet</h1>
-				<h2 class="addTweet"><input class="tweet-input" value="" placeholder="Tweet"/></h2><i class="fa fa-twitter fa-3x fa-twitter-add"></i>
+				
+				<form action="" method="post" id="tweet-form">
+						<h2 class="addTweet"><input id="tweet" class="tweet-input" value="" placeholder="Tweet"/></h2>
+						<span id="chars-left">140</span>
+						<button type="submit" class="fa-twitter-add">
+			                <i class="fa fa-twitter"></i> Tweet
+			            </button>
+					</form>
 				<h1 class="tweet-added">Thanks <i class="fa fa-twitter fa-twitter-done"></i></h1>
 			</div>
 			<div class="row mood_options_lane">
@@ -176,15 +185,15 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="libraries/bootstrap/js/bootstrap.3.3.4.min.js"></script>
 
-	<!-- MIND PAGE-->
-
+<!-- 	SOUNDCLOUD -->
     <script src="//connect.soundcloud.com/sdk.js"></script>
     <script src="libraries/soundcloud/api.js"></script>
 
-    <!-- CHARTS PAGE -->
-
+<!-- CHARTS -->
     <script src="libraries/Chart.min.js"></script>
-	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	
+	
+	
 	<script src="javascript/peace.js"></script>
 </body>
 </html>
