@@ -1,6 +1,6 @@
 var mood = 0;
 $(document).ready(function(){
-
+	
 	$( ".peace_logo" ).fadeOut( 2000, function() {
 		$( ".peace_home" ).fadeIn(1000);
 		$(".mood_view_bottom_option").fadeIn(1000);
@@ -136,6 +136,11 @@ function initOptions(){
 	$(".journal-entry-title").hide(  );
 	$(".journal-entry-text").hide(  );
 	$(".add-journal-entry-done").hide(  );
+	
+	$(".addTweet").hide(  );
+	$(".fa-twitter-add").hide();
+	$(".fa-twitter-done").hide();
+	$(".tweet-added").hide();
 
 	$(".take_steps").show();
 	$(".take-step-1").hide();
@@ -172,6 +177,22 @@ function initOptions(){
 	$(".track-your-mood").on("click", function(){
 		$(this).fadeOut( 350, function() {
 			$(".mood-tracked").fadeIn( 350 );
+		});
+	});
+	
+	$(".add-tweet").on("click", function(){
+		$(this).fadeOut( 350, function() {
+			$(".addTweet").fadeIn( 350 );
+			$(".fa-twitter").fadeIn( 350 );
+		});
+	});
+	
+	$(".fa-twitter").on("click", function(){
+		$(this).fadeOut( 350, function() {
+			$(".addTweet").hide();
+			$(".fa-twitter-add").hide();
+			$(".tweet-added").fadeIn( 350 );
+			$(".fa-twitter-done").fadeIn( 350 );
 		});
 	});
 	

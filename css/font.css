@@ -2,7 +2,7 @@
 	font-size: 1.5em;
 }
 
-.journal-entry-title-text, .journal-entry-text-area{
+.journal-entry-title-text, .journal-entry-text-area,.tweet-input{
 		font-size: 1.0em;
 }
 
@@ -12,7 +12,7 @@ h1, a, .mood_options_lane, .mood_stats_hugs{
 	color: white;
 }
 
-h2,.mood-tracked,.add-journal-entry-done, .take_step{
+h2,.mood-tracked,.add-journal-entry-done, .take_step, .tweet-added{
 	font-family: montserrat, helvetica, sans-serif;
 	font-weight: 500;
 	color: #818181;

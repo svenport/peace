@@ -41,6 +41,7 @@ img.peace_logo{
 	background-color: white;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	cursor: pointer;
 }
 
 /*----MOOD LANES VIEW----*/
@@ -126,8 +127,8 @@ img.peace_logo{
 
 .mood_options_lane{
 	width: 100%;
-	margin: 0%;
-	padding: 0%;
+	margin: 0.5%;
+	xpadding: 0%;
 	color: #434343;
 	text-align: center;
 	cursor: pointer;
@@ -151,17 +152,19 @@ img.peace_logo{
 	display: none;
 }
 
-.journal-entry-title-text, .journal-entry-text-area{
+.journal-entry-title-text, .journal-entry-text-area, .tweet-input{
 	border: none;
 	padding: 2px;
 	margin: 0px;
 	padding-top: 5px;
 	padding-left: 10px;
 	width: 90%;
+	border-radius: 2px;
 }
 
-.take_steps{
-	
+.fa-twitter-add{
+	color:white;
+	margin-bottom: 1%;
 }
 
 .take_step{

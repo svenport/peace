@@ -39,6 +39,7 @@
 <link rel="apple-touch-icon" href="apple-icon.png">
 </head>
 <body>
+	
 	<div class="container peace_header peace_logo">
 		<div class="jumbotron">
 			<img class="peace_logo" src="peace-logo.png">
@@ -86,25 +87,24 @@
 				<h1 class="mood-tracked">Mood saved <i class="fa fa-thumbs-o-up"></i></h1>
 			</div>
 			<div class="row mood_options_lane">
-				<h1>Tweet</h1>
-<!-- 				<iframe src="http://twitter.com/home?status=Put your message here and include your username ala @marketingV2"> -->
-				
-<!-- 				</iframe> -->
+				<h1 class="add-tweet">Tweet</h1>
+				<h2 class="addTweet"><input class="tweet-input" value="" placeholder="Tweet"/></h2><i class="fa fa-twitter fa-3x fa-twitter-add"></i>
+				<h1 class="tweet-added">Thanks <i class="fa fa-twitter fa-twitter-done"></i></h1>
 			</div>
 			<div class="row mood_options_lane">
 				<div class="mood-option-text-music"><h1>Play music</h1></div>
 				<div class="mood-option-text-music-stop"><h1>Stop it</h1></div>
 				
 				<iframe id="mood-music" style="display: none;"
-					src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" 
+					src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138084493&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false" 
 					width="60" height="60" scrolling="no" 
 					frameborder="no"></iframe>
 			</div>
 			<div class="row mood_options_lane">
 				<h1 class="add-journal-entry">Journal</h1>
 				<h1 class="add-journal-entry-done">Thanks <i class="fa fa-heart-o"></i></h1>
-				<h2 class="journal-entry-title"><input class="journal-entry-title-text" value="" placeholder="Title"/></h1>
-				<h2 class="journal-entry-text"><textarea class="journal-entry-text-area" placeholder="Write about your day, honey...."></textarea></h1>
+				<h2 class="journal-entry-title"><input class="journal-entry-title-text" value="" placeholder="Title"/></h2>
+				<h2 class="journal-entry-text"><textarea class="journal-entry-text-area" placeholder="Write about your day, honey...."></textarea></h2>
 				<h1 class="add-journal-entry-submit"><i class="fa fa-plus-square-o"></i> Submit</h1>
 			</div>
 			<div class="row mood_options_lane">
@@ -184,7 +184,7 @@
     <!-- CHARTS PAGE -->
 
     <script src="libraries/Chart.min.js"></script>
-	
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 	<script src="javascript/peace.js"></script>
 </body>
 </html>
