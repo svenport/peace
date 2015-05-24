@@ -1,16 +1,16 @@
 # Peace
 
-Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon).
+Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon). It runs as a web app, so you can pretty much open it in almost any device with an internet connection (display quality may vary). 
 
 ##Context
 
-Currently 350 Mio. people worldwide have a depression.
+Currently 350 Mio. people worldwide have depression.
  
 For treatment, most patients work with psychologist need medicine and close attention, but in many cases the attention part is easier said than done. 
 
-The type and dose of medicin needs to be adjusted to everyone individually. Its fit is measured through your change in mood, sleeping and eating habits, etc. Those also need to be monitored by your psychologists to know about the current state of your depression. 
+The type and dose of medicine needs to be adjusted to everyone individually. Its fit is measured through your change in mood, sleeping and eating habits, etc. Those also need to be monitored by your psychologists to know about the current state of your depression. 
 
-We consider that Mental health is still taboo or not seriously covered of by app makers.
+We consider that Mental health is still taboo or not seriously covered of by app makers. So we decided to assess that during our hackathon project.
 
 ##Our work
  
