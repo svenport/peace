@@ -24,10 +24,9 @@ We believe we can help millions of users, specially when using it parallelly to 
 
 If you want to participate and test the app prototype, you can do it by:
 
-1. Open [this link]() in your mobile browser, 
-![Add as app](https://github.com/svenport/peace/blob/master/screengrabs/grab.jpg)
+1. Open [this link]() in your mobile browser
 2. Add it to your home screen as an app 
-![Playtime](https://github.com/svenport/peace/blob/master/screengrabs/home.jpg)
+![Add as app](https://github.com/svenport/peace/blob/master/screengrabs/grab.jpg)
 3. Tap it and and play with it.
 ![Playtime](https://github.com/svenport/peace/blob/master/screengrabs/app.jpg)
 
