@@ -134,8 +134,12 @@ function initOptions(){
 	$(".add-journal-entry-submit").hide();
 	$(".journal-entry-title").hide(  );
 	$(".journal-entry-text").hide(  );
+	$(".journal-entry-title").val("");
+	$(".journal-entry-text").val("");
 	$(".add-journal-entry-done").hide(  );
 	
+	$(".add-tweet").show();
+	$(".tweet-input").val("");
 	$(".addTweet").hide(  );
 	$(".fa-twitter-add").hide();
 	$(".fa-twitter-done").hide();
