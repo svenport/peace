@@ -2,14 +2,14 @@
 
 Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon). It runs as a web app, so you can pretty much open it in almost any device with an internet connection (display quality may vary). **Right now is mostly a mockup, but if you join this piece by forking it, we could make it a fully functional app.**
 
-- [Context](#)
-- [Our work](#)
-- [Take the app for a ride](#)
-- [Future](#)
-- [Risks](#)
-- [Installation](#)
+- [Context](#context)
+- [Our work](#work)
+- [Take the app for a ride](#ride)
+- [Future](#future)
+- [Risks](#risks)
+- [Installation](#install)
 
-##Context
+<h2 id="context">Context</h2>
 
 [**Currently 350 Mio. people worldwide have depression.**](http://www.who.int/mediacentre/factsheets/fs369/en/)
  
@@ -17,7 +17,7 @@ For treatment, most patients work with psychologist need medicine and close atte
 
 We consider that [Mental health is still taboo or not seriously covered of by app makers](https://github.com/svenport/peace/blob/master/screengrabs/mental%20health%20app%20mess.jpg). So we decided to assess that during our hackathon project. We wanted to make something pretty, empathetic, useful, and simple that can help anyone with a phone and an internet connection.
 
-##Our work
+<h2 id="work">Our work</h2>
  
 ![Cover Image of Peace](https://github.com/svenport/peace/blob/master/screengrabs/cover.jpg)
 
@@ -25,7 +25,7 @@ We designed a mood tracking application prototype. We named it **Peace**. It let
 
 We believe we can help millions of users, specially when using it parallelly to professional counseling.
 
-##Take the app for a ride
+<h2 id="ride">Take the app for a ride</h2>
 
 If you want to participate and test the app prototype, you can do it by:
 
@@ -35,13 +35,13 @@ If you want to participate and test the app prototype, you can do it by:
 3. Tap it and and play with it.
 ![Playtime](https://github.com/svenport/peace/blob/master/screengrabs/app.jpg)
 
-## Future
+<h2 id="future">Future</h2>
 We would like to make this a useful, running app that you can work natively with. For this we are considering applying for some funding and professional help from psychologysts to make it a fully functional piece of work.
 
-## Risks
+<h2 id="risks">Risks</h2>
 This has been worked by a group of passionate people that, while aiming for empathy, are not psychology professionals. Hence this app, as it is today (May 25th, 2015) might have underlying risks. We want to have an empowering tool based on empathy and real need. Please fork, comment, or pass this repository to your friends. The more people involved, the better. 
 
-# Installation
+<h2 id="install">Installation and Setup</h2>
 
 1. Setup Server, e.g. Apache
 2. Install PHP
