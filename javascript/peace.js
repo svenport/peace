@@ -153,7 +153,7 @@ function initOptions(){
 	$(".take-step-4").hide();
 
 	SC.initialize({
-		client_id: "***REMOVED***"
+		client_id: "<SOUNDCLOUD_CLIENT_ID>"
 	});
 
 	$(".mood-option-text-music").on("click", function(){

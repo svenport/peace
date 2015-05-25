@@ -9,10 +9,10 @@ class TwitterPost {
 	
 	public function __construct() {
 		$settings = array(
-			'oauth_token' => '***REMOVED***',
-			'oauth_token_secret' => '***REMOVED***',
-			'consumer_key' => '***REMOVED***',
-			'consumer_secret' => '***REMOVED***',
+			'oauth_token' => '<OAUTH_TOKEN>',
+			'oauth_token_secret' => '<OAUTH_TOKEN_SECRET>',
+			'consumer_key' => '<CONSUMER_KEY>',
+			'consumer_secret' => '<CONSUMER_SECRET>',
 			'output_format' => 'json'
 		);
 		$this->_connection = new Twitter( $settings );
