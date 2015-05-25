@@ -124,7 +124,7 @@
 				<h1 class="take_step take-step-4">Medidate</h1>
 			</div>
 			<div class="row mood_options_lane">
-				<a class="mood_option_call" href="tel:***REMOVED***"><h1>Call</h1></a>
+				<a class="mood_option_call" href="tel:xxx"><h1>Call</h1></a>
 			</div>
 		</div>
 
