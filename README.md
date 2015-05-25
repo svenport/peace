@@ -2,6 +2,13 @@
 
 Peace is a Mood diary &amp; gym for your thoughts. It was made as a project for the [Hamburg Geekettes HackathonHH 2015](http://hamburg-hackathon.de/hackathon). It runs as a web app, so you can pretty much open it in almost any device with an internet connection (display quality may vary). **Right now is mostly a mockup, but if you join this piece by forking it, we could make it a fully functional app.**
 
+- [Context](#)
+- [Our work](#)
+- [Take the app for a ride](#)
+- [Future](#)
+- [Risks](#)
+- [Installation](#)
+
 ##Context
 
 [**Currently 350 Mio. people worldwide have depression.**](http://www.who.int/mediacentre/factsheets/fs369/en/)
@@ -33,3 +40,27 @@ We would like to make this a useful, running app that you can work natively with
 
 ## Risks
 This has been worked by a group of passionate people that, while aiming for empathy, are not psychology professionals. Hence this app, as it is today (May 25th, 2015) might have underlying risks. We want to have an empowering tool based on empathy and real need. Please fork, comment, or pass this repository to your friends. The more people involved, the better. 
+
+# Installation
+
+1. Setup Server, e.g. Apache
+2. Install PHP
+3. Clone the repo: git clone https://github.com/svenport/peace.git
+4. Point server to the cloned repo
+5. Open url: http://localhost:8080/peace/peace.php
+
+## Setup app
+
+To run the application properly you need two registered applications: One for soundcloud and one for Twitter
+
+### Soundcloud
+
+Login to Soundcloud and create an application: https://soundcloud.com/login?return_to=%2Fyou%2Fapps
+
+Then paste the client id into Peace/javascript/peace.js @line 156
+
+### Twitter
+
+Login to Twitter and create an application: https://twitter.com/settings/applications
+
+Then paste the ids into /Peace/lib/TwitterPost.php @line 12 to 15
